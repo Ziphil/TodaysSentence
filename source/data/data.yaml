@@ -1,0 +1,897 @@
+# 4045
+- name: xolac
+  equivalent: 生活する, 暮らす, 過ごす
+  sentence: |-
+    <em>xolacac</em> a solov aves i tel vo fosnal fe dus.
+  translation: |-
+    私の両親は 2 人で田舎に<em>暮らしている</em>。
+
+# 4046
+- name: sitay
+  equivalent: 挨拶する
+  sentence: |-
+    teca kofides a ces e tel, <em>sitayes</em> a's ca'l odalaz.
+  translation: |-
+    彼は私を見つけると元気に<em>挨拶した</em>。
+
+# 4047
+- name: macak
+  equivalent: ケーキ
+  sentence: |-
+    fegat a tel e <em>macak</em>, lo pa zedat sôdis a loc e cit?
+  translation: |-
+    <em>ケーキ</em>を買ってあるのですが、食べますか?
+
+# 4048
+- name: fertis
+  equivalent: 夢見る, 憧れる, 望む
+  sentence: |-
+    <em>fertisat</em> a tel e'n kilit yepelos a'l oyesac itace ces.
+  translation: |-
+    彼のように上手に歌えるようになるのを<em>夢見ている</em>。
+
+# 4049
+- name: vaslon
+  equivalent: 広大な, 巨大な, 広い
+  sentence: |-
+    zazez ebam a tel, li'n kavat a sod i ces e nasfek <em>avaslon</em>.
+  translation: |-
+    彼女の家には<em>広大な</em>庭があり、とても驚いた。
+
+# 4051
+- name: felàd
+  equivalent: 預かる
+  sentence: |-
+    paveqes a tel e xoqkalit <em>felàdat</em> e a'l zi refet.
+  translation: |-
+    友達から<em>預かっていた</em>漫画をなくしてしまった。
+
+# 4054
+- name: belset
+  equivalent: いたずらする, ふざける
+  sentence: |-
+    vomac <em>belsetos</em> a yaf i tel ca tel olof.
+  translation: |-
+    私の妹はよく私に<em>いたずらをする</em>。
+
+# 4055
+- name: pilom
+  equivalent: 迷う, 悩む
+  sentence: |-
+    <em>pilomac</em> a tel e'n lanis a'l ca koskalad qi lacos á volàq.
+  translation: |-
+    会社まで歩いて行くかバスで行くかに<em>悩んでいる</em>。
+
+# 4056
+- name: tascol
+  equivalent: 袖
+  sentence: |-
+    rimines a tel e <em>tascol</em> te marites a'l e téq.
+  translation: |-
+    手を洗うときに<em>袖</em>を濡らしてしまった。
+
+# 4058
+- name: zimciq
+  equivalent: 週末, 土日
+  sentence: |-
+    zedat lanis a tel te <em>zimciq</em> ca kosseklac.
+  translation: |-
+    <em>週末</em>は映画館に行こうと思う。
+
+# 4062
+- name: cafêd
+  equivalent: たまたま, 偶然
+  sentence: |-
+    tòdes <em>ocafêd</em> a tel vo kûzteqiv e yetih refcasat e a'l.
+  translation: |-
+    <em>たまたま</em>街角で推しのアイドルに出会った。
+
+# 4064
+- name: cilít
+  equivalent: レモン
+  sentence: |-
+    qikes a ces sora tel zi <em>cilít</em> e tirmal.
+  translation: |-
+    彼は私のために<em>レモン</em>からジュースを作ってくれた。
+
+# 4066
+- name: kofid
+  equivalent: 見つける, 発見する
+  sentence: |-
+    <em>kofides</em> a tel ca kudoq i kescat e sokiq paveqes e a'l te ben azît.
+  translation: |-
+    先月なくした腕時計を引き出しの奥に<em>見つけた</em>。
+
+# 4068
+- name: zilsif
+  equivalent: 無口な, 寡黙な
+  sentence: |-
+    salat a ces e <em>azilsif</em>, dà vomac raflesos olof a's ca tel.
+  translation: |-
+    彼女は<em>無口な</em>人だが、私とはよくおしゃべりする。
+
+# 4075
+- name: melfos
+  equivalent: 怠ける, ダラダラする
+  sentence: |-
+    di'dokolaf <em>melfosas</em> a loc, lo di'zèvofaf a loc.
+  translation: |-
+    <em>ダラダラし</em>ないで勉強しなさい。
+
+# 4076
+- name: jelvet
+  equivalent: 蚊, ハエ
+  sentence: |-
+    zidiged a ces li'n lohisac vo sokul a <em>jelvet</em>.
+  translation: |-
+    部屋に<em>蚊</em>が飛んでいたので彼はイライラしていた。
+
+# 4078
+- name: derex
+  equivalent: 雨が降る
+  sentence: |-
+    vade <em>derexec</em>, foqones a tel e folan.
+  translation: |-
+    <em>雨が降っていた</em>ので、外出するのをやめた。
+
+# 4082
+- name: mozas
+  equivalent: 温かい, 暖かい
+  sentence: |-
+    fale bigitet vo fòn, teres a tel e cèr <em>amozas</em> teca zifimes a'l ca sod.
+  translation: |-
+    外が寒かったので、家に帰った後で<em>温かい</em>お茶を飲んだ。
+
+# 4084
+- name: yelnas
+  equivalent: ピカピカの, 綺麗な
+  sentence: |-
+    vomac qîlos a ces e cekul acik teku lôk avôl, dà salat omez a cit e <em>ayelnas</em>.
+  translation: |-
+    彼はその鞄を長いこと使っているが、いまだに<em>ピカピカだ</em>。
+
+# 4088
+- name: jivol
+  equivalent: 散らかす
+  sentence: |-
+    <em>jivolat</em> e sokul rahites vo a fay i tel.
+  translation: |-
+    私の娘が遊んでいた部屋が<em>散らかっている</em>。
+
+# 4090
+- name: cilteq
+  equivalent: 間食, 軽食, おやつ
+  sentence: |-
+    sôdes a tel e lidét kadi <em>cilteq</em>.
+  translation: |-
+    <em>おやつ</em>にクッキーを食べた。
+
+# 4096
+- name: faltad
+  equivalent: 雑誌, マガジン
+  sentence: |-
+    lîdec a ces voku loqiv e <em>faltad</em> feges e a's vo kolot.
+  translation: |-
+    彼女は駅で買った<em>雑誌</em>を電車の中で読んでいた。
+
+# 4097
+- name: micqit
+  equivalent: 編む
+  sentence: |-
+    <em>micqites</em> a ces qe lofùmnelas sora tel.
+  translation: |-
+    彼はマフラーを私のために<em>編んでくれた</em>。
+
+# 4159
+- name: lòtvol
+  equivalent: 時期, シーズン
+  sentence: |-
+    cákat a <em>lòtvol</em> vomoc derexos te olof.
+  translation: |-
+    雨が頻繁に降る<em>時期</em>がやって来た。
+
+# 4161
+- name: qiktîb
+  equivalent: 冷房, クーラー
+  sentence: |-
+    vade zâget ebam vo sokul i tel, qéses a'l e <em>qiktîb</em>.
+  translation: |-
+    私の部屋はとても暑かったので、<em>冷房</em>をつけた。
+
+# 4173
+- name: pâziq
+  equivalent: 置き忘れる
+  sentence: |-
+    <em>pâziqat</em> a tel zi sod e cifèkkis, ziqo ducikekat a'l e kisol.
+  translation: |-
+    家に財布を<em>置いてきてしまった</em>ので、お金は持っていません。
+
+# ======================================================================================================================
+
+# 4324
+- name: vosras
+  equivalent: カフェ, 喫茶店
+  sentence: |-
+    vomac sôdos a tel te fèz e tonaspôd vo <em>vosras</em>.
+  translation: |-
+    私は最近朝食を<em>カフェ</em>で食べている。
+
+# 4325
+- name: cavef
+  equivalent: ワクワクする, 興奮する
+  sentence: |-
+    <em>cavefed</em> a ces li'n kufes a's e mílit ie kosrahit.
+  translation: |-
+    彼は遊園地のチケットを手に入れて<em>ワクワクしていた</em>。
+
+# 4326
+- name: dibul
+  equivalent: 反省する
+  sentence: |-
+    pa <em>dibulat</em> oyát a loc e'n dôkes a'c e letal?
+  translation: |-
+    あなたは皿を割ったことを本当に<em>反省してい</em>ますか?
+
+# 4327
+- name: xayet<br>sôkal
+  equivalent: 満月
+  sentence: |-
+    te zifim ica sod, fedakes a tel e'n xílac vo hîx a <em>xayetsôkal</em>.
+  translation: |-
+    家に帰る途中、空で<em>満月</em>が輝いているのに気づいた。
+
+# 4328
+- name: ritif
+  equivalent: 魚
+  sentence: |-
+    zamekes a ces vo celrisis e <em>ritif</em> kòdezcekes e a ces.
+  translation: |-
+    彼女は河原で釣った<em>魚</em>を焼いた。
+
+# 4329
+- name: mafet
+  equivalent: 触る, 触れる
+  sentence: |-
+    vo kosxolàl afik, ditat <em>dumafetis</em> a'c e qinat arak.
+  translation: |-
+    この美術館では、どの絵にも<em>触らない</em>でください。
+
+# 4330
+- name: vossok
+  equivalent: スーパーマーケット
+  sentence: |-
+    feges a zál vo <em>vossok</em> e naved o malac.
+  translation: |-
+    私たちは<em>スーパーマーケット</em>で野菜と果物を買った。
+
+# 4331
+- name: lìh
+  equivalent: 愛玩動物
+  sentence: |-
+    hilefat a ces e <em>lìh</em> avêq, lo milcitac a's e met al'atisetkaq.
+  translation: |-
+    彼はあらゆる<em>愛玩動物</em>が大好きで、18 匹飼っている。
+
+# 4332
+- name: hidal
+  equivalent: 屋根
+  sentence: |-
+    hikutat e <em>hidal</em> i sod i ces zi nátal anám.
+  translation: |-
+    彼女の家の<em>屋根</em>は緑の植物で覆われている。
+
+# 4333
+- name: gisin
+  equivalent: 切る
+  sentence: |-
+    te kigec a tel e tomek, <em>gisines</em> odoqzed a'l e siloz i toq.
+  translation: |-
+    肉を切っているときに、誤って自分の指を<em>切ってしまった</em>。
+
+# 4334
+- name: tonas<br>jodom
+  equivalent: 夜食
+  sentence: |-
+    di'nibitis a'c e'n vomas sôdos a'c e sicollerfev kadi <em>tonasjodom</em>.
+  translation: |-
+    <em>夜食</em>にカップラーメンを食べるのはやめなさい。
+
+# 4335
+- name: tacat
+  equivalent: 出入口
+  sentence: |-
+    fîqec a tel vo <em>tacat</em> i kolot e'n cákis a refet.
+  translation: |-
+    私は駅の<em>出入口</em>で友達が来るのを待っていた。
+
+# 4336
+- name: xolsac
+  equivalent: 礼儀正しく
+  sentence: |-
+    felyemes a ces ca tel <em>oxolsac</em> ebam.
+  translation: |-
+    彼女は私にとても<em>礼儀正しく</em>お辞儀をした。
+
+# 4337
+- name: tisoc
+  equivalent: 唯一の, 無二の
+  sentence: |-
+    salat a keteq afik e delot <em>atisoc</em> ie qâzhil i tel.
+  translation: |-
+    この写真は私の祖父の<em>唯一の</em>記録だ。
+
+# 4338
+- name: sacav
+  equivalent: 間に合う
+  sentence: |-
+    bava lanes a ces ca kosax cife vilis, <em>dusacaves</em> a ces.
+  translation: |-
+    彼女は走って学校に行ったが、<em>間に合わなかった</em>。
+
+# 4340
+- name: zaved
+  equivalent: 味が濃い
+  sentence: |-
+    salat a leric afik e <em>azaved</em> iti durafat sôdis a tel e cit.
+  translation: |-
+    このスープは飲みたくないほど<em>味が濃い</em>。
+
+# 4341
+- name: taqsíq
+  equivalent: クリスマス
+  sentence: |-
+    pa cilèdat a loc e'n lesis a'c e pil te <em>taqsíq</em>?
+  translation: |-
+    <em>クリスマス</em>は何をする予定ですか?
+
+# 4342
+- name: dalvam
+  equivalent: 偉そうに, 横柄に
+  sentence: |-
+    vomac deqigos a ces <em>odalvam</em>, ziqo bulajat e ces a zis aves.
+  translation: |-
+    彼女は<em>偉そうに</em>命令するので、皆に嫌われている。
+
+# 4343
+- name: kelàd
+  equivalent: 大人びた, 大人っぽい
+  sentence: |-
+    salat a ces e <em>akelàd</em>, bava salat omez a ces e alosod ile latvác avon.
+  translation: |-
+    彼はまだ 9 歳なのに<em>大人びて</em>いる。
+
+# 4344
+- name: gébet
+  equivalent: 怪我する, 負傷する
+  sentence: |-
+    becames a tel ce <em>gébetes</em> a tel e letoq.
+  translation: |-
+    転んで脚を<em>怪我してしまった</em>。
+
+# 4345
+- name: famah
+  equivalent: ふわふわの
+  sentence: |-
+    salat e <em>afemah</em> ebam a motfel keztolat e a ces.
+  translation: |-
+    彼が持っているぬいぐるみはとても<em>ふわふわだ</em>。
+
+# 4347
+- name: vòq
+  equivalent: も
+  sentence: |-
+    kavat a ces e lafes al'asez <em>evòq</em>.
+  translation: |-
+    彼女には兄弟が 7 人<em>も</em>いる。
+
+# 4348
+- name: picek
+  equivalent: 確かめる, 確認する
+  sentence: |-
+    pa <em>picekes</em> a loc e'n salat a tòs acik e ayát?
+  translation: |-
+    あなたはその情報が正しいか<em>確かめました</em>か?
+
+# 4350
+- name: bikàg
+  equivalent: かじかむ
+  sentence: |-
+    fale <em>bikàgat</em> a tel zi téq, duqifat vofekas a'l e locècdesek.
+  translation: |-
+    手が<em>かじかんでいる</em>ので靴紐が結べない。
+
+# 4351
+- name: cemòl
+  equivalent: クッション
+  sentence: |-
+    kétes a ces ca hif izi dezet e <em>cemòl</em> feges e a ces.
+  translation: |-
+    彼は買ってきた<em>クッション</em>を椅子の上に置いた。
+
+# 4352
+- name: qìv
+  equivalent: アプリ, ソフト
+  sentence: |-
+    vomac qîlos a tel e <em>qìv</em> afik so cedeq ie qoras.
+  translation: |-
+    私は旅行の計画をするのにこの<em>アプリ</em>を使う。
+
+# 4354
+- name: xakal
+  equivalent: 晴れる
+  sentence: |-
+    lonaqat a tel e'n <em>xakalac</em> te tacál.
+  translation: |-
+    明日は<em>晴れる</em>ようにと祈っている。
+
+# 4356
+- name: jodom<br>kud
+  equivalent: 真夜中
+  sentence: |-
+    di'duliqetac a'c ca tel te <em>jodomkud</em>.
+  translation: |-
+    <em>真夜中</em>に電話しないでください。
+
+# 4357
+- name: letad
+  equivalent: 階, フロア
+  sentence: |-
+    keqilac a ces vo <em>letad</em> ac'axaf i kedcav afik.
+  translation: |-
+    彼女はこのアパートの 5 <em>階</em>に住んでいる。
+
+# 4358
+- name: rasfot
+  equivalent: 外出する, 出かける
+  sentence: |-
+    zedat <em>rasfotis</em> a tel so kefôr.
+  translation: |-
+    気晴らしに<em>外出し</em>ようと思う。
+
+# 4359
+- name: nalsol
+  equivalent: 植える
+  sentence: |-
+    <em>nalsoles</em> a ces e nát avôl kavat a e nayef ayerif.
+  translation: |-
+    彼は美しい花の植物をたくさん<em>植えた</em>。
+
+# 4361
+- name: melfos
+  equivalent: ダラダラする,  怠ける
+  sentence: |-
+    zedat <em>melfosis</em> a zál vo sod te taqbik o taqzaf.
+  translation: |-
+    私たちは大晦日と元日は家で<em>ダラダラする</em>つもりだ。
+
+# 4363
+- name: yelak
+  equivalent: 宝石
+  sentence: |-
+    kômet a ces e yelicsiloz ifi <em>yelak</em> avaf.
+  translation: |-
+    彼女は大きな<em>宝石</em>のついた指輪をしていた。
+
+# 4364
+- name: hasix
+  equivalent: 曇る
+  sentence: |-
+    kocfesat e'n <em>hasixit</em> olov te tacál.
+  translation: |-
+    明日はずっと<em>曇り</em>という予報だ。
+
+# 4365
+- name: sol<br>nísid
+  equivalent: セーター
+  sentence: |-
+    kômet ocafêd a tel o ces e <em>solnísid</em> akàf.
+  translation: |-
+    私と彼は偶然にもそっくりの<em>セーター</em>を着ていた。
+
+# 4371
+- name: zedek
+  equivalent: とにかく, ともあれ
+  sentence: |-
+    <em>ozedek</em>, ditat nîpis ofev a'c zi fêd.
+  translation: |-
+    <em>とにかく</em>、早くここから立ち去ってください。
+
+# 4372
+- name: taqraf
+  equivalent: 休日
+  sentence: |-
+    rafat lîdis a tel te <em>taqraf</em> acál vo sod e xoqlacat.
+  translation: |-
+    次の<em>休日</em>は家で小説を読みたい。
+
+# 4374
+- name: des<br>sotàk
+  equivalent: 数学
+  sentence: |-
+    sohizac ozacàt a ces te sot e <em>dessotàk</em>.
+  translation: |-
+    彼女は今熱心に<em>数学</em>の勉強をしている。
+
+# 4374
+- name: kor<br>levìm
+  equivalent: ビール
+  sentence: |-
+    buqotat a tel e <em>korlevìm</em>, vade salat a cit e agulod itazi tel.
+  translation: |-
+    <em>ビール</em>は私には苦いので苦手だ。
+
+# 4376
+- name: gizes
+  equivalent: 頭が冴える
+  sentence: |-
+    teres a ces te pôd i saq e kèc so <em>gizes</em>.
+  translation: |-
+    彼は今日の朝に<em>頭を冴えさせる</em>ためコーヒーを飲んだ。
+
+# 4378
+- name: falhos
+  equivalent: 仄かに光る
+  sentence: |-
+    salat a xàk ivo sokul afik e hàsil etut <em>falhosac</em> a'k.
+  translation: |-
+    この部屋にある灯りは<em>仄かに光る</em>蝋燭だけだ。
+
+# 4380
+- name: vaxkot
+  equivalent: 宇宙
+  sentence: |-
+    rafat lanis a tel te capal ca <em>vaxkot</em>.
+  translation: |-
+    いつか<em>宇宙</em>に行ってみたい。
+
+# 4381
+- name: permof
+  equivalent: うとうとする
+  sentence: |-
+    vade debet a tel teca qiket, <em>permofes</em> a'l voku loqiv.
+  translation: |-
+    仕事の後は疲れていたので、電車の中で<em>うとうとしてしまった</em>。
+
+# 4382
+- name: belaq
+  equivalent: 目覚まし, アラーム
+  sentence: |-
+    medelet e <em>belaq</em>, lo qifet feketas a tel te pôd.
+  translation: |-
+    <em>目覚まし</em>が壊れていて、朝起きることができなかった。
+
+# 4383
+- name: ciqid
+  equivalent: 週
+  sentence: |-
+    fékes a tel e'n doqkòqit te <em>ciqid</em> ated a halcos.
+  translation: |-
+    今<em>週</em>は天気が不安定らしいと聞いた。
+
+# 4384
+- name: qilox
+  equivalent: 言語
+  sentence: |-
+    xakocac a tel e <em>qilox</em> afik teku lôk avôl ile latvác atisetqec.
+  translation: |-
+    私はこの<em>言語</em>を 12 年間ずっと作っている。
+
+# 4387
+- name: xosov
+  equivalent: 博識な
+  sentence: |-
+    salat a ces e <em>axosov</em> ebam, silo vomac cakofos a's zi pec avêq.
+  translation: |-
+    彼女はとても<em>博識で</em>、あらゆる質問に答えてくれる。
+
+# 4390
+- name: judem
+  equivalent: 古めかしい
+  sentence: |-
+    keqiket ca taqit i kudoq i sokul acik e lák <em>ajudem</em>.
+  translation: |-
+    その部屋の奥の壁には<em>古めかしい</em>時計が設置されていた。
+
+# 4393
+- name: lakad
+  equivalent: 文字
+  sentence: |-
+    kèket qe xoq acik qi <em>lakad</em> dufèkat e a tel.
+  translation: |-
+    その本は知らない<em>文字</em>で書かれていた。
+
+# 4624
+- name: ráh
+  equivalent: 親友
+  sentence: |-
+    salot e adozeg ebam a kin kavos a vas e <em>ráh</em>.
+  translation: |-
+    <em>親友</em>をもつというのはとても難しい。
+
+# 4625
+- name: nelèz
+  equivalent: ニンニク
+  sentence: |-
+    zedat dusôdis a tel e <em>nelèz</em> fale câsis a’l te càd e refet.
+  translation: |-
+    後で友達に会うので、<em>ニンニク</em>は食べないでおこう。
+
+# 4627
+- name: mílit
+  equivalent: チケット
+  sentence: |-
+    ri cikekat a loc e <em>mílit</em>, ditat cafosis a’c e cit.
+  translation: |-
+    <em>チケット</em>をお持ちでしたら見せてください。
+
+# 4629
+- name: yâla
+  equivalent: 分かった
+  sentence: |-
+    <em>yâla</em>, tayelis a tel te càd e nasfek.
+  translation: |-
+    <em>分かりました</em>、後で庭を掃除しておきます。
+
+# 4631
+- name: homel
+  equivalent: 無関心になる
+  sentence: |-
+    <em>homelat</em> a ces e zel avêq iloke laxol.
+  translation: |-
+    彼女は人間に関するあらゆることに<em>無関心だ</em>。
+
+# 4632
+- name: safkes
+  equivalent: 清潔な
+  sentence: |-
+    ditat cikekac a’c e talemcik <em>asafkes</em> ovák.
+  translation: |-
+    <em>清潔な</em>ハンカチを常に持ち歩いてください。
+
+# 4636
+- name: zicat
+  equivalent: 返す
+  sentence: |-
+    pa zedat <em>zicatis</em> te pet a loc e dev féves e a’c zi tel?
+  translation: |-
+    私から借りたペンをいつ<em>返す</em>つもりですか?
+
+# 4637
+- name: tokùm
+  equivalent: フード
+  sentence: |-
+    vomoc fegos a ces e solaktòlat etut ifi <em>tokùm</em>.
+  translation: |-
+    彼は<em>フード</em>付きのトップスしか買わない。
+
+# 4639
+- name: dovek
+  equivalent: 踏む
+  sentence: |-
+    <em>dovekes</em> a tel e sòlaq lo medeles a’l e cit.
+  translation: |-
+    スマートフォンを<em>踏ん</em>で壊してしまった。
+
+# 4641
+- name: kaqfat
+  equivalent: 観光する
+  sentence: |-
+    zedat lanis a zál so <em>kaqfat</em> te ben acál ca ferânes.
+  translation: |-
+    私たちは来月フランスに<em>観光</em>に行くつもりだ。
+
+# 4643
+- name: galniv
+  equivalent: ズキズキする
+  sentence: |-
+    <em>galnivac</em> a tel zi soz ogicaz.
+  translation: |-
+    頭が激しく<em>ズキズキする</em>。
+
+# 4646
+- name: fecev
+  equivalent: 誘う
+  sentence: |-
+    <em>feceves</em> ca tel a refet e’n lanis ofelaz a zál ca kosxolàl.
+  translation: |-
+    一緒に美術館へ行かないかと友人から<em>誘われた</em>。
+
+# 4650
+- name: vetul
+  equivalent: お腹が空く
+  sentence: |-
+    <em>vetulat</em> a tel, dà qetat voku sod a sûd adak.
+  translation: |-
+    <em>お腹が空いた</em>が、家に食べ物は何もない。
+
+# 4653
+- name: permof
+  equivalent: うとうとする
+  sentence: |-
+    <em>permofac</em> olov a loc, lo pa debat a loc?
+  translation: |-
+    ずっと<em>うとうとしています</em>が、疲れているのですか?
+
+# 4657
+- name: bivtes
+  equivalent: 急な
+  sentence: |-
+    salat a nitez aquk e <em>abivtes</em>, lo bedemad a tel li hisez ie cit.
+  translation: |-
+    あの坂は<em>急</em>で、登ったらへとへとになってしまった。
+
+# 4662
+- name: câlec
+  equivalent: フォローする
+  sentence: |-
+    cipasac a tel e’n <em>câlecis</em> a loc vo tevites e tel!
+  translation: |-
+    Twitter での<em>フォロー</em>お願いします!
+
+# 4673
+- name: qokum
+  equivalent: 人見知りな
+  sentence: |-
+    salat a ces e <em>aqokum</em>, lo vomac dulicos a tel e’n raflesoc a ces.
+  translation: |-
+    彼女は<em>人見知り</em>で、私は彼女が話しているのを見たことがない。
+
+# 4674
+- name: xalzih
+  equivalent: 超人
+  sentence: |-
+    salot a ces e <em>xalzih</em>. e dol, revat a tel e’n dukilot a ces.
+  translation: |-
+    彼は<em>超人</em>だ。彼にできないことはないのではないかと思う。
+
+# 4675
+- name: jeled
+  equivalent: 失礼にも
+  sentence: |-
+    zelqotes <em>ojeled</em> a ces e tel.
+  translation: |-
+    彼女は<em>失礼なことに</em>私を無視した。
+
+# 4678
+- name: losod
+  equivalent: 年をとった
+  sentence: |-
+    salat a ces te sot e <em>alosod</em> ile latvác avonet ekòt.
+  translation: |-
+    彼は今ちょうど 90 歳だ。
+
+# 4679
+- name: rilec
+  equivalent: クラゲ
+  sentence: |-
+    ranaxoz a tel li’n poqosos a’l e <em>rilec</em>.
+  translation: |-
+    <em>クラゲ</em>を眺めると癒やされる。
+
+# 4681
+- name: natet
+  equivalent: 虫
+  sentence: |-
+    balatez a tel li’n qetat ca hif izi dèt a <em>natet</em>.
+  translation: |-
+    机の上に<em>虫</em>がいてびっくりした。
+
+# 4684
+- name: méciv
+  equivalent: 散歩する
+  sentence: |-
+    fale zêfak a tel te fém, zedat <em>mécivis</em> a’l vo fòn.
+  translation: |-
+    早く着いてしまったので、外を<em>散歩してこよう</em>と思う。
+
+# 4685
+- name: yemet
+  equivalent: 裕福な
+  sentence: |-
+    salat a ces e <em>ayemet</em>, dà vomac holvepos a’s odum.
+  translation: |-
+    彼は<em>裕福だ</em>が、全く浪費をしない。
+
+# 4687
+- name: hálem
+  equivalent: 甘える
+  sentence: |-
+    salat e aqodel e’n <em>hálemac</em> a loc ca tel.
+  translation: |-
+    私に<em>甘え</em>ても無駄です。
+
+# 4690
+- name: safaz
+  equivalent: 助言
+  sentence: |-
+    pa kilat <em>safazis</em> a’c ca tel loke zecel afik?
+  translation: |-
+    この問題について私に<em>助言</em>できませんか?
+
+# 4692
+- name: zìq
+  equivalent: かつてしていた
+  sentence: |-
+    ca vosras afik, <em>zìqat</em> vomec lanis olof a tel.
+  translation: |-
+    このカフェには<em>かつて</em>よく行った<em>ものだ</em>。
+
+# 4698
+- name: taqbik
+  equivalent: 大晦日
+  sentence: |-
+    e <em>taqbik</em>, zedat lìtis a tel vo sod fe sofez.
+  translation: |-
+    <em>大晦日</em>は家で家族と一緒に過ごすつもりだ。
+
+# 4700
+- name: dalvam
+  equivalent: 偉そうに
+  sentence: |-
+    vomac deqigos ovák a ces ca tel <em>odalvam</em>.
+  translation: |-
+    彼女はいつも私に<em>偉そうに</em>命令してくる。
+
+# 4702
+- name: kescat
+  equivalent: 引き出し
+  sentence: |-
+    pâmat a tel e’n lokudes a’l ca <em>kescat</em> apek e fokeq.
+  translation: |-
+    どの<em>引き出し</em>に鍵をしまったか忘れた。
+
+# 4705
+- name: gifnit
+  equivalent: ナイフ
+  sentence: |-
+    ditat xôlikis a’c e <em>gifnit</em> o lisid.
+  translation: |-
+    <em>ナイフ</em>とフォークを並べてください。
+
+# 4707
+- name: fahar
+  equivalent: 蝶
+  sentence: |-
+    sê, a <em>fahar</em> abik! s’e ayerif.
+  translation: |-
+    ねえ、青い<em>ちょうちょ</em>だ! 綺麗だね。
+
+# 4711
+- name: vildas
+  equivalent: 刺激する
+  sentence: |-
+    teca <em>vildas</em> ia ces, fôces vomas zèvofos a tel e líker.
+  translation: |-
+    彼に<em>刺激させられ</em>て、私はピアノの練習を始めた。
+
+# 4713
+- name: pafoc
+  equivalent: 推測する
+  sentence: |-
+    <em>pafocat</em> a tel e’n dôkes e likok aquk a ces.
+  translation: |-
+    あのコップを割ったのは<em>たぶん</em>彼女だと<em>思う</em>。
+
+# 4715
+- name: belom
+  equivalent: 下手な
+  sentence: |-
+    salat a ces e <em>abelom</em> ie’n kécos a’s e nodom.
+  translation: |-
+    彼女は嘘をつくのが<em>下手だ</em>。
+
+# 4719
+- name: cadìq
+  equivalent: モニター
+  sentence: |-
+    li’n kázec a tel e <em>cadìq</em>, gulelad a’l zi soz.
+  translation: |-
+    <em>モニター</em>を見つめていたせいで頭が痛い。
+
+# 4722
+- name: qitel
+  equivalent: 挙げる
+  sentence: |-
+    ditat <em>qitelis</em> a’c zi sodaq i japan.
+  translation: |-
+    日本の都市の<em>例を挙げて</em>ください。
