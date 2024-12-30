@@ -35,8 +35,9 @@ body {
 
 .strip {
   height: 240px;
-  flex: 0 0 auto;
-  position: relative;
+  inset-inline: 0px;
+  position: absolute;
+  z-index: 1;
   &::after {
     inset: 0px;
     background-color: $blue-color;
@@ -46,12 +47,14 @@ body {
     content: "";
   }
   &[data-position="top"] {
+    inset-block-start: 0px;
     &::after {
       inset-block-start: -480px;
       background-color: $blue-color;
     }
   }
   &[data-position="bottom"] {
+    inset-block-end: 0px;
     &::after {
       inset-block-end: -480px;
       background-color: $orange-color;
@@ -78,6 +81,7 @@ body {
   width: 180px;
   height: 180px;
   position: absolute;
+  z-index: 2;
   &::before {
     width: 100%;
     height: 9px;

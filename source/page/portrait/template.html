@@ -11,21 +11,21 @@
 
     <main class="main" id="main">
       <div class="number">{{= it.number }}</div>
-      <div class="strip" data-position="top"></div>
       <div class="center">
-        <div class="sentence" data-font="shaleian">
+        <p class="sentence" data-font="shaleian">
           {{= it.sentence.replace(/’/g, "'") }}
-        </div>
-        <div class="sentence" data-font="sans">
+        </p>
+        <p class="sentence" data-font="sans">
           {{= it.sentence }}
-        </div>
-        <div class="translation">
+        </p>
+        <p class="translation">
           {{= it.translation }}
-        </div>
+        </p>
       </div>
-      <div class="strip" data-position="bottom"></div>
-      <div class="ornament" data-position="top"></div>
-      <div class="ornament" data-position="bottom"></div>
+      <div class="strip" data-position="top" aria-hidden="true"></div>
+      <div class="strip" data-position="bottom" aria-hidden="true"></div>
+      <div class="ornament" data-position="top" aria-hidden="true"></div>
+      <div class="ornament" data-position="bottom" aria-hidden="true"></div>
     </main>
 
   </body>
