@@ -24,30 +24,30 @@ body {
 }
 
 .main {
-  width: 1280px;
-  height: 720px;
+  width: 1920px;
+  height: 1080px;
   background-color: white;
   display: flex;
   overflow: hidden;
   position: relative;
+  flex: 0 0 auto;
 }
 
 .left {
-  width: 520px;
-  padding-inline-end: 72px;
-  padding-inline-start: 72px;
-  row-gap: 32px;
+  width: 780px;
+  padding-inline-end: 108px;
+  padding-inline-start: 108px;
+  row-gap: 48px;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   position: relative;
-  flex-grow: 0;
-  flex-shrink: 0;
+  flex: 0 0 auto;
   &::after {
     inset: 0px;
-    inset-inline-start: -300px;
+    inset-inline-start: -480px;
     background-color: $blue-color;
     transform: skew(-8deg, 0deg);
     z-index: 0;
@@ -60,21 +60,73 @@ body {
 }
 
 .right {
-  padding-inline-start: 72px;
-  padding-inline-end: 72px;
-  row-gap: 48px;
+  padding-inline-start: 108px;
+  padding-inline-end: 108px;
+  row-gap: 72px;
   color: hsl(0, 0%, 30%);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1 1 auto;
+}
+
+.number {
+  width: 204px;
+  height: 170px;
+  inset-block-start: 42px;
+  inset-inline-start: 36px;
+  font-family: "Josefin Sans";
+  font-size: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.ornament {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  &::before {
+    width: 100%;
+    height: 9px;
+    position: absolute;
+    content: "";
+  }
+  &::after {
+    width: 9px;
+    height: 100%;
+    position: absolute;
+    content: "";
+  }
+  &[data-position="left"] {
+    inset-block-start: 18px;
+    inset-inline-start: 18px;
+    &::before,
+    &::after {
+      inset-block-start: 0px;
+      inset-inline-start: 0px;
+      background-color: white;
+    }
+  }
+  &[data-position="right"] {
+    inset-block-end: 18px;
+    inset-inline-end: 18px;
+    &::before,
+    &::after {
+      inset-block-end: 0px;
+      inset-inline-end: 0px;
+      background-color: $orange-color;
+    }
+  }
 }
 
 .name {
   margin-inline-end: -0.05em;
-  font-size: 80px;
+  font-size: 120px;
   font-family: $shaleian-font-family;
   font-weight: bold;
   text-align: end;
@@ -83,13 +135,13 @@ body {
 
 .equivalent {
   @include line-height;
-  font-size: 36px;
+  font-size: 54px;
   text-align: end;
 }
 
 .sentence {
   @include line-height;
-  font-size: 48px;
+  font-size: 72px;
   font-weight: bold;
   &[data-font="shaleian"] {
     font-family: $shaleian-font-family;
@@ -102,62 +154,9 @@ body {
 
 .translation {
   @include line-height;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 em {
   color: $orange-color;
-}
-
-.number {
-  width: 136px;
-  height: 114px;
-  inset-block-start: 28px;
-  inset-inline-start: 24px;
-  font-family: "Josefin Sans";
-  font-size: 80px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 2;
-}
-
-.ornament {
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  &::before {
-    width: 100%;
-    height: 6px;
-    position: absolute;
-    content: "";
-  }
-  &::after {
-    width: 6px;
-    height: 100%;
-    position: absolute;
-    content: "";
-  }
-  &[data-position="left"] {
-    inset-block-start: 12px;
-    inset-inline-start: 12px;
-    &::before,
-    &::after {
-      inset-block-start: 0px;
-      inset-inline-start: 0px;
-      background-color: white;
-    }
-  }
-  &[data-position="right"] {
-    inset-block-end: 12px;
-    inset-inline-end: 12px;
-    &::before,
-    &::after {
-      inset-block-end: 0px;
-      inset-inline-end: 0px;
-      background-color: $orange-color;
-    }
-  }
 }
