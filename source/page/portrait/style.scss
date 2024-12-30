@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+@use "sass:math" as *;
+@use "../common.scss" as *;
+@import "../reset.scss";
+@import "../font.scss";
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: $serif-font-family;
+  font-feature-settings: "palt" 1, "pkna" 1, "lnum" 1;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.main {
+  width: 1080px;
+  height: 1920px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.strip {
+  height: 240px;
+  flex: 0 0 auto;
+  position: relative;
+  &::after {
+    inset: 0px;
+    background-color: $blue-color;
+    transform: skew(0deg, -12deg);
+    z-index: 0;
+    position: absolute;
+    content: "";
+  }
+  &[data-position="top"] {
+    &::after {
+      inset-block-start: -480px;
+      background-color: $blue-color;
+    }
+  }
+  &[data-position="bottom"] {
+    &::after {
+      inset-block-end: -480px;
+      background-color: $orange-color;
+    }
+  }
+}
+
+.number {
+  width: 204px;
+  height: 170px;
+  inset-block-start: 42px;
+  inset-inline-start: 36px;
+  font-family: "Josefin Sans";
+  font-size: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.ornament {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  &::before {
+    width: 100%;
+    height: 9px;
+    background-color: white;
+    position: absolute;
+    content: "";
+  }
+  &::after {
+    width: 9px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    content: "";
+  }
+  &[data-position="top"] {
+    inset-block-start: 18px;
+    inset-inline-start: 18px;
+    &::before,
+    &::after {
+      inset-block-start: 0px;
+      inset-inline-start: 0px;
+    }
+  }
+  &[data-position="bottom"] {
+    inset-block-end: 18px;
+    inset-inline-end: 18px;
+    &::before,
+    &::after {
+      inset-block-end: 0px;
+      inset-inline-end: 0px;
+    }
+  }
+}
+
+.center {
+  padding-inline: 64px;
+  row-gap: 108px; 
+  color: hsl(0, 0%, 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.sentence {
+  @include line-height;
+  font-size: 72px;
+  font-weight: bold;
+  &[data-font="shaleian"] {
+    font-family: $shaleian-font-family;
+    font-size-adjust: cap-height 0.71;
+  }
+  &[data-font="sans"] {
+    font-family: $sans-font-family;
+  }
+}
+
+.translation {
+  @include line-height;
+  font-size: 48px;
+}
