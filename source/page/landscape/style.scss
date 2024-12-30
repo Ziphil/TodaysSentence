@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+@use "sass:math" as *;
+@use "../common.scss" as *;
+@import "../reset.scss";
+@import "../font.scss";
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: $serif-font-family;
+  font-feature-settings: "palt" 1, "pkna" 1, "lnum" 1;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.main {
+  width: 1280px;
+  height: 720px;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.left {
+  width: 520px;
+  padding-inline-end: 72px;
+  padding-inline-start: 72px;
+  row-gap: 32px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  &::after {
+    inset: 0px;
+    inset-inline-start: -300px;
+    background-color: $blue-color;
+    transform: skew(-8deg, 0deg);
+    z-index: 0;
+    position: absolute;
+    content: "";
+  }
+  & >* {
+    z-index: 1;
+  }
+}
+
+.right {
+  padding-inline-start: 72px;
+  padding-inline-end: 72px;
+  row-gap: 48px;
+  color: hsl(0, 0%, 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.name {
+  margin-inline-end: -0.05em;
+  font-size: 80px;
+  font-family: $shaleian-font-family;
+  font-weight: bold;
+  text-align: end;
+  letter-spacing: 0.03em;
+}
+
+.equivalent {
+  @include line-height;
+  font-size: 36px;
+  text-align: end;
+}
+
+.sentence {
+  @include line-height;
+  font-size: 48px;
+  font-weight: bold;
+  &[data-font="shaleian"] {
+    font-family: $shaleian-font-family;
+    font-size-adjust: cap-height 0.71;
+  }
+  &[data-font="sans"] {
+    font-family: $sans-font-family;
+  }
+}
+
+.translation {
+  @include line-height;
+  font-size: 32px;
+}
+
+em {
+  color: $orange-color;
+}
+
+.number {
+  width: 136px;
+  height: 114px;
+  inset-block-start: 28px;
+  inset-inline-start: 24px;
+  font-family: "Josefin Sans";
+  font-size: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.ornament {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  &::before {
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    content: "";
+  }
+  &::after {
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    content: "";
+  }
+  &[data-position="left"] {
+    inset-block-start: 12px;
+    inset-inline-start: 12px;
+    &::before,
+    &::after {
+      inset-block-start: 0px;
+      inset-inline-start: 0px;
+      background-color: white;
+    }
+  }
+  &[data-position="right"] {
+    inset-block-end: 12px;
+    inset-inline-end: 12px;
+    &::before,
+    &::after {
+      inset-block-end: 0px;
+      inset-inline-end: 0px;
+      background-color: $orange-color;
+    }
+  }
+}

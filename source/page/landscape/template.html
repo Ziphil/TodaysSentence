@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>今日のシャレイア語</title>
+  </head>
+  <body>
+
+    <main class="main" id="main">
+      <div class="number">{{= it.number }}</div>
+      <div class="left">
+        <div class="name">
+          {{= it.name }}
+        </div>
+        <div class="equivalent">
+          {{= it.equivalent }}
+        </div>
+      </div>
+      <div class="right">
+        <div class="sentence" data-font="shaleian">
+          {{= it.sentence.replace(/’/g, "'") }}
+        </div>
+        <div class="sentence" data-font="sans">
+          {{= it.sentence }}
+        </div>
+        <div class="translation">
+          {{= it.translation }}
+        </div>
+      </div>
+      <div class="ornament" data-position="left"></div>
+      <div class="ornament" data-position="right"></div>  
+    </main>
+
+  </body>
+</html>
