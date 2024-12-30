@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node source/index.ts"
+    "start": "ts-node source/index.ts",
+    "ll": "npm run start -- -m landscape -i last",
+    "la": "npm run start -- -m landscape -i all",
+    "pl": "npm run start -- -m portrait -i last",
+    "pa": "npm run start -- -m portrait -i all"
   },
   "eslintConfig": {
     "extends": "ziphil"
