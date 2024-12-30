@@ -55,7 +55,8 @@ async function generateStyle(mode: ImageMode): Promise<void> {
 }
 
 async function generateImages(mode: ImageMode, indices: Array<number>): Promise<void> {
-  const browser = await puppeteer.launch({defaultViewport: {width: 1920, height: 1080}});
+  const viewport = (mode === "landscape") ? {width: 1920, height: 1080} : {width: 1080, height: 1920};
+  const browser = await puppeteer.launch({defaultViewport: viewport});
   await Promise.all(indices.map(async (index) => {
     const page = await browser.newPage();
     await page.goto(`file://${process.cwd()}/out/${mode}/page/${index + 1}.html`);
