@@ -903,3 +903,27 @@
     doparad a tel li’n kévelis a’l te tacál e felâl <em>axôqid</em>.
   translation: |-
     明日は<em>フォーマルな</em>パーティーに出席するので緊張している。
+
+# 4732
+- name: jolzed
+  equivalent: 恨む
+  sentence: |-
+    pa <em>jolzedat</em> a loc vade pil zite lôk azêk ebam e tel?
+  translation: |-
+    どうしてずっと昔から私を<em>恨んでいる</em>のですか?
+
+# 4739
+- name: lonaq
+  equivalent: 祈る
+  sentence: |-
+    ri duxasakis a zál qi fal, kilit a’l e <em>lonaq</em> etut.
+  translation: |-
+    もしこれでうまくいかなかったら、<em>祈る</em>しかない。
+
+# 4742
+- name: rosoq
+  equivalent: 南西
+  sentence: |-
+    qetat a kosxoq ca <em>rosoq</em> izi fêd.
+  translation: |-
+    図書館はここから<em>南西</em>にある。
