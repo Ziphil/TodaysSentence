@@ -7,6 +7,28 @@
 
 
 html {
+  --serif-font-family: "Brill Local", "Yu Mincho", "YuMincho";
+  &[data-language="shaleian"] {
+    --base-color: #33C2FF;
+    --accent-color: #FFAA33;
+    --background-color: white;
+    --text-color: hsl(0, 0%, 30%);
+    --sans-font-family: "Inter Local", "BIZ UDPGothic", "Yu Gothic Medium", "Yu Gothic";
+    --special-font-family: "Josefin Sans";
+    --custom-font-family: "Vekos";
+  }
+  &[data-language="fennese"] {
+    --base-color: #F5D53D;
+    --accent-color: #FFAA80;
+    --background-color: hsl(20, 30%, 10%);
+    --text-color: white;
+    --sans-font-family: "Inter Local", "BIZ UDPGothic", "Yu Gothic Medium", "Yu Gothic";
+    --special-font-family: "Josefin Sans";
+    --custom-font-family: "Vekos";
+  }
+}
+
+html {
   width: 100%;
   height: 100%;
 }
@@ -14,7 +36,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: $serif-font-family;
+  font-family: var(--serif-font-family);
   font-feature-settings: "palt" 1, "pkna" 1, "lnum" 1;
   line-height: 1;
   display: flex;
@@ -26,7 +48,7 @@ body {
 .main {
   width: 1920px;
   height: 1080px;
-  background-color: white;
+  background-color: var(--background-color);
   display: flex;
   overflow: hidden;
   position: relative;
@@ -38,7 +60,7 @@ body {
   padding-inline-end: 108px;
   padding-inline-start: 108px;
   row-gap: 48px;
-  color: white;
+  color: var(--background-color);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -48,7 +70,7 @@ body {
   &::after {
     inset: 0px;
     inset-inline-start: -480px;
-    background-color: $blue-color;
+    background-color: var(--base-color);
     transform: skew(-8deg, 0deg);
     z-index: 0;
     position: absolute;
@@ -63,7 +85,7 @@ body {
   padding-inline-start: 108px;
   padding-inline-end: 108px;
   row-gap: 72px;
-  color: hsl(0, 0%, 30%);
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -78,9 +100,9 @@ body {
   height: 120px;
   inset-block-start: 67px;
   inset-inline-start: calc(27px + var(--left-margin) + var(--horizontal-margin));
-  font-family: "Josefin Sans";
+  font-family: var(--special-font-family);
   font-size: 120px;
-  color: white;
+  color: var(--background-color);
   text-align: center;
   position: absolute;
   z-index: 2;
@@ -109,7 +131,7 @@ body {
     &::after {
       inset-block-start: 0px;
       inset-inline-start: 0px;
-      background-color: white;
+      background-color: var(--background-color);
     }
   }
   &[data-position="right"] {
@@ -119,7 +141,7 @@ body {
     &::after {
       inset-block-end: 0px;
       inset-inline-end: 0px;
-      background-color: $orange-color;
+      background-color: var(--accent-color);
     }
   }
 }
@@ -127,7 +149,7 @@ body {
 .name {
   margin-inline-end: -0.05em;
   font-size: 120px;
-  font-family: $shaleian-font-family;
+  font-family: var(--custom-font-family);
   font-weight: bold;
   text-align: end;
   letter-spacing: 0.03em;
@@ -143,12 +165,12 @@ body {
   @include line-height;
   font-size: 72px;
   font-weight: bold;
-  &[data-font="shaleian"] {
-    font-family: $shaleian-font-family;
+  &[data-font="custom"] {
+    font-family: var(--custom-font-family);
     font-size-adjust: cap-height 0.71;
   }
   &[data-font="sans"] {
-    font-family: $sans-font-family;
+    font-family: var(--sans-font-family);
   }
 }
 
@@ -158,5 +180,5 @@ body {
 }
 
 em {
-  color: $orange-color;
+  color: var(--accent-color);
 }

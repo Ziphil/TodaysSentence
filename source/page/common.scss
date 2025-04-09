@@ -3,14 +3,6 @@
 @use "sass:math" as *;
 
 
-$blue-color: #33C2FF;
-$orange-color: #FFAA33;
-
-$serif-font-family: "Brill Local", "Yu Mincho", "YuMincho";
-$sans-font-family: "Inter Local", "BIZ UDPGothic", "Yu Gothic Medium", "Yu Gothic";
-$shaleian-font-family: "Vekos";
-
-
 @mixin line-height($line-height: 1.4) {
   line-height: $line-height;
   &::before {

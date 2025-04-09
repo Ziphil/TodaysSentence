@@ -927,3 +927,115 @@
     qetat a kosxoq ca <em>rosoq</em> izi fêd.
   translation: |-
     図書館はここから<em>南西</em>にある。
+
+# 4754
+- name: niqot
+  equivalent: 休む
+  sentence: |-
+    vade benaget a tel e benôm, <em>niqotes</em> a’l e kosax.
+  translation: |-
+    風邪を引いていたので、学校を<em>休んだ</em>。
+
+# 4758
+- name: menet
+  equivalent: 紫色の
+  sentence: |-
+    vomac kômos ovák a ces e solak <em>amenet</em>.
+  translation: |-
+    彼はいつも<em>紫色の</em>服を着る。
+
+# 4759
+- name: yâla
+  equivalent: 了解
+  sentence: |-
+    <em>yâla</em>, fesletis a tel e loc te tat ile tef atisetxaf.
+  translation: |-
+    <em>分かりました</em>、15 時に迎えに行きます。
+
+# 4764
+- name: hinof<br>cîf
+  equivalent: 従姉
+  sentence: |-
+    kavat a tel e <em>hinofcîf</em> vomac qiketos a vo sokutqôc.
+  translation: |-
+    私には外国で働いている<em>従姉</em>がいる。
+
+# 4770
+- name: sélep
+  equivalent: 拭く
+  sentence: |-
+    <em>sélepes</em> a tel ca dèt tezi sôdes a zál e tonaslon.
+  translation: |-
+    夕食を食べる前に、私は机を<em>拭いた</em>。
+
+# 4790
+- name: zifiv
+  equivalent: 直近
+  sentence: |-
+    pa niselsodes a loc te <em>zifiv</em> ile latben ayos?
+  translation: |-
+    あなたは<em>ここ</em> 3 ヶ月の間に引っ越しをしましたか?
+
+# 4793
+- name: tikaz
+  equivalent: 要約する
+  sentence: |-
+    ditat <em>tikazis</em> a’c e kíc i loc.
+  translation: |-
+    あなたの発言を<em>要約し</em>てください。
+
+# 4796
+- name: defév
+  equivalent: 欲しがる
+  sentence: |-
+    vomac <em>defévos</em> ovák a fay i tel e qiqrah.
+  translation: |-
+    私の娘はいつもおもちゃを<em>欲しがっ</em>ている。
+
+# 4800
+- name: kostarín
+  equivalent: 水族館
+  sentence: |-
+    ditat lanis a zál ca <em>kostarín</em> te zimciq acál.
+  translation: |-
+    次の週末には<em>水族館</em>に行きましょう。
+
+# 4807
+- name: gulod
+  equivalent: 苦い
+  sentence: |-
+    salat a sálak afik e <em>agulod</em>, silo durafat sálikis a tel e cit.
+  translation: |-
+    この薬は<em>苦い</em>ので、私は飲みたくない。
+
+# 4810
+- name: fibim
+  equivalent: ぞっとする
+  sentence: |-
+    <em>fibimez</em> a tel li kin recakas a’l e’n qetat a zis ca zic izi tel.
+  translation: |-
+    自分の後ろに誰かがいるように感じて、<em>ぞっとした</em>。
+
+# 4817
+- name: vosfeq
+  equivalent: コンビニ
+  sentence: |-
+    di’fegis a’c vo <em>vosfeq</em> e cèr o soqtel.
+  translation: |-
+    <em>コンビニ</em>でお茶とおにぎりを買ってきて。
+
+# 4820
+- name: pevis
+  equivalent: 軽率にも
+  sentence: |-
+    zibeqat a tel te sot e’n delizes <em>opevis</em> a’l zi ces.
+  translation: |-
+    <em>軽率にも</em>彼女に従ってしまったことに今後悔している。
+
+# 4826
+- name: betlel
+  equivalent: 酔う
+  sentence: |-
+    <em>betlelat</em> a ces vade teres a’l te tiziq e korvelir avosfom.
+  translation: |-
+    彼はさっき大量のワインを飲んだので<em>酔っている</em>。
