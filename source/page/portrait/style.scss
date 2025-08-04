@@ -148,11 +148,11 @@ body {
   @include line-height;
   font-size: 81px;
   font-weight: bold;
-  &[data-font="custom"] {
+  &[data-font="first"] {
     font-family: var(--custom-font-family);
     font-size-adjust: cap-height 0.71;
   }
-  &[data-font="sans"] {
+  &[data-font="second"] {
     font-family: var(--sans-font-family);
   }
 }

@@ -4,6 +4,7 @@ import commandLineArgs from "command-line-args";
 import dotjs from "dot";
 import fs from "fs/promises";
 import yaml from "js-yaml";
+import {convertCyrillicToLatin} from "ogorasso";
 import pngToJpeg from "png-to-jpeg";
 import puppeteer from "puppeteer";
 import sass from "sass";
@@ -43,10 +44,37 @@ async function loadExampleSpecs(language: Language): Promise<Array<ExampleSpec>>
 async function generatePages(specs: Array<ExampleSpec>, language: Language, mode: ImageMode, indices: Array<number>): Promise<void> {
   const template = await fs.readFile(`source/page/${mode}/template.html`, {encoding: "utf-8"});
   await Promise.all(indices.map(async (index) => {
-    const output = dotjs.template(template)({...specs[index], number: index + 1, language});
+    const spec = specs[index];
+    const output = dotjs.template(template)({
+      number: index + 1,
+      language,
+      name: spec.name,
+      equivalent: spec.equivalent,
+      sentences: [
+        convertSentence(spec.sentence, language, 0),
+        convertSentence(spec.sentence, language, 1)
+      ],
+      translation: spec.translation
+    });
     await fs.mkdir(`out/${language}/${mode}/page`, {recursive: true});
     await fs.writeFile(`out/${language}/${mode}/page/${index + 1}.html`, output);
   }));
+}
+
+function convertSentence(sentence: string, language: Language, position: 0 | 1): string {
+  if (language === "shaleian") {
+    if (position === 0) {
+      return sentence.replace(/’/g, "'");
+    } else {
+      return sentence;
+    }
+  } else {
+    if (position === 0) {
+      return sentence;
+    } else {
+      return convertCyrillicToLatin(sentence);
+    }
+  }
 }
 
 async function generateStyle(language: Language, mode: ImageMode): Promise<void> {

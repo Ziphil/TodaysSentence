@@ -20,11 +20,11 @@
         </div>
       </div>
       <div class="right">
-        <p class="sentence" data-font="custom">
-          {{= it.sentence.replace(/’/g, "'") }}
+        <p class="sentence" data-font="first">
+          {{= it.sentences[0] }}
         </p>
-        <p class="sentence" data-font="sans">
-          {{= it.sentence }}
+        <p class="sentence" data-font="second">
+          {{= it.sentences[1] }}
         </p>
         <p class="translation">
           {{= it.translation }}

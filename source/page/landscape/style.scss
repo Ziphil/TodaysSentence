@@ -13,27 +13,32 @@ html {
     --accent-color: #FFAA33;
     --background-color: white;
     --text-color: hsl(0, 0%, 30%);
-    --sans-font-family: "Inter Local", "BIZ UDPGothic", "Yu Gothic Medium", "Yu Gothic";
+    --first-font-family: "Vekos";
+    --first-font-size-adjust: 0.71;
+    --first-font-weight: bold;
+    --second-font-family: "Inter Local", "BIZ UDPGothic", "Yu Gothic Medium", "Yu Gothic";
+    --second-font-weight: bold;
+    --name-font-family: var(--first-font-family);
+    --name-font-weight: var(--first-font-weight);
     --special-font-family: "Josefin Sans";
-    --custom-font-family: "Vekos";
-    --name-font-family: var(--custom-font-family);
-    --custom-font-size-adjust: 0.71;
-    --show-custom: true;
   }
   &[data-language="fennese"] {
     --base-color: hsl(20, 80%, 70%);
     --accent-color: hsl(50, 90%, 60%);
     --background-color: hsl(240, 10%, 20%);
     --text-color: hsl(20, 20%, 90%);
-    --sans-font-family: "Ysabeau", "Yu Gothic Medium", "Yu Gothic";
+    --first-font-family: "Ysabeau";
+    --first-font-size-adjust: 0.71;
+    --first-font-weight: 800;
+    --second-font-family: var(--first-font-family);
+    --second-font-size-adjust: var(--first-font-size-adjust);
+    --second-font-weight: var(--first-font-weight);
+    --name-font-family: var(--first-font-family);
+    --name-font-size-adjust: var(--first-font-size-adjust);
+    --name-font-weight: var(--first-font-weight);
     --special-font-family: "Ysabeau";
-    --custom-font-family: "Ysabeau";
-    --name-font-family: var(--sans-font-family);
-    --name-font-weight: 800;
-    --custom-font-weight: 800;
-    --sans-font-size-adjust: 0.71;
-    --number-position-adjustment: -12px;
-    --show-custom: false;
+    --number-position-adjust: -12px;
+    --name-position-adjust: -32px;
   }
 }
 
@@ -107,7 +112,7 @@ body {
   --horizontal-margin: 16px;
   width: calc(171px - var(--left-margin) - var(--left-margin) * 2);
   height: 120px;
-  inset-block-start: calc(67px + var(--number-position-adjustment, 0px));
+  inset-block-start: calc(67px + var(--number-position-adjust, 0px));
   inset-inline-start: calc(27px + var(--left-margin) + var(--horizontal-margin));
   font-family: var(--special-font-family);
   font-size: 120px;
@@ -157,6 +162,7 @@ body {
 
 .name {
   margin-inline-end: -0.05em;
+  margin-block-start: var(--name-position-adjust, 0px);
   font-size: 120px;
   font-family: var(--name-font-family);
   font-weight: var(--name-font-weight, bold);
@@ -174,17 +180,15 @@ body {
 .sentence {
   @include line-height;
   font-size: 72px;
-  font-weight: var(--custom-font-weight, bold);
-  &[data-font="custom"] {
-    font-family: var(--custom-font-family);
-    font-size-adjust: cap-height var(--custom-font-size-adjust, 0.66);
-    @container style(--show-custom: false) {
-      display: none;
-    }
+  &[data-font="first"] {
+    font-family: var(--first-font-family);
+    font-weight: var(--first-font-weight, bold);
+    font-size-adjust: cap-height var(--first-font-size-adjust, 0.66);
   }
-  &[data-font="sans"] {
-    font-family: var(--sans-font-family);
-    font-size-adjust: cap-height var(--sans-font-size-adjust, 0.66);
+  &[data-font="second"] {
+    font-family: var(--second-font-family);
+    font-weight: var(--second-font-weight, bold);
+    font-size-adjust: cap-height var(--second-font-size-adjust, 0.66);
   }
 }
 
