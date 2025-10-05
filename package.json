@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node source/index.ts",
-    "xl": "npm run start -- -o landscape -i last -l shaleian",
-    "xp": "npm run start -- -o portrait -i last -l shaleian",
-    "fl": "npm run start -- -o landscape -i last -l fennese",
-    "fp": "npm run start -- -o portrait -i last -l fennese"
+    "xl": "npm run start -- -l shaleian -o landscape -i last",
+    "xp": "npm run start -- -l shaleian -o portrait -i last",
+    "fl": "npm run start -- -l fennese -o landscape -i last",
+    "fp": "npm run start -- -l fennese -o portrait -i last"
   },
   "eslintConfig": {
     "extends": "ziphil"
