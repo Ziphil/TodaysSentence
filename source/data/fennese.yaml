@@ -1,7 +1,175 @@
 # 4826
-- name: ажже̄баӈ
+- name: ажже̂баӈ
   equivalent: 黒い
   sentence: |-
-    Хе̄ ӈоге̄табби асо̄к ме̄рее <em>’жже̄баӈ</em>.
+    Хѐ ӈоге̂табби асо̂к ме̂рее <em>ажже̂баӈ</em>.
   translation: |-
     あの公園に<em>黒い</em>猫がいる。
+
+# 4827
+- name: мозо̂х
+  equivalent: 来る
+  sentence: |-
+    Но̂дде <em>мозо̂хо</em> и̂ддес?
+  translation: |-
+    いつ彼はここに<em>来る</em>のですか?
+
+# 4830
+- name: удде̂мез
+  equivalent: 称する
+  sentence: |-
+    Но̂с <em>то̀дде̂мез</em>?
+  translation: |-
+    あなたの<em>名前</em>は何ですか?
+
+# 4847
+- name: ҕеде̂дло
+  equivalent: 店
+  sentence: |-
+    Хѐ лу̂ххара тоҕдо̂лно но̀ <em>ҕеде̂дле</em>?
+  translation: |-
+    あの花はどの<em>店</em>で買ったのですか?
+
+# 4855
+- name: жадде̂с
+  equivalent: 必要とする
+  sentence: |-
+    <em>Ижадде̂с</em> заҕе̂лла се̂хсо̀.
+  translation: |-
+    私は早く寝る<em>必要がある</em>。
+
+# 4866
+- name: цадо̂с
+  equivalent: 座る
+  sentence: |-
+    Но̀к асо̂к лесе̂мри ке̂дде бамедду̂ <em>цадо̂лса</em> ус?
+  translation: |-
+    近くに私たちが<em>座れ</em>る場所はありますか?
+
+# 4868
+- name: хо̂лаф
+  equivalent: 鳥
+  sentence: |-
+    Избе̂ҕҕано <em>хо̂лфа</em> то̂жжана леӈе̂табби лово̂деве.
+  translation: |-
+    家の庭で珍しい<em>鳥</em>を見つけた。
+
+# 4870
+- name: каххе̂з
+  equivalent: 起きる, 点く
+  sentence: |-
+    Но̂ззам <em>каххе̂з</em> леше̂лах лечде̂кове?
+  translation: |-
+    どうして部屋の電気が<em>点いている</em>のですか?
+
+# 4877
+- name: со̂ддаб
+  equivalent: おもしろい
+  sentence: |-
+    Ѐ лоро̂кашше е̂кан ажжа <em>со̂ддаб</em> и̂ццевзам.
+  translation: |-
+    彼の話は私にとっては<em>おもしろく</em>なかった。
+
+# 4943
+- name: сери̂с
+  equivalent: 川
+  sentence: |-
+    Лезохде̂вте италфе̂г летк’ ѝ <em>лесри̂си</em>.
+  translation: |-
+    休日はこの<em>川</em>沿いを散歩する。
+
+# 4944
+- name: аччаҕе̂сез
+  equivalent: 成長する
+  sentence: |-
+    О̀ легго̂ако зало̂но <em>аччаҕе̂рсоз</em> гоге̂но.
+  translation: |-
+    彼の孫は立派に<em>成長して</em>いた。
+
+# 4945
+- name: веццо̂р
+  equivalent: 間に合う
+  sentence: |-
+    Бо̀ точче̂вво чел ко̂сак <em>бамвеццо̂р</em> лонсе̂ссос!
+  translation: |-
+    電車に<em>間に合う</em>ように走って!
+
+# 4946
+- name: сенфе̂к
+  equivalent: 頼む
+  sentence: |-
+    Цѐ лехо̂к <em>сенфе̂кан</em> цос се̂рра лоҕҕедо̂вца.
+  translation: |-
+    私の母は私にキッチンを掃除するよう<em>頼んだ</em>。
+
+# 4951
+- name: секде̂ххаз
+  equivalent: カフェ
+  sentence: |-
+    Хе̂о е̂кно се̂рмо пе̂ттала хѐ <em>лесекде̂ххази</em>.
+  translation: |-
+    彼ならあの<em>カフェ</em>でケーキを食べていましたよ。
+
+# 4953
+- name: вебо̂жаммо
+  equivalent: 風邪
+  sentence: |-
+    Ивецо̂т <em>вебо̂жамма</em> и ижво̂з ловӈо̂лтезам.
+  translation: |-
+    <em>風邪</em>を引いて喉が痛い。
+
+# 4957
+- name: боде̂жжамо
+  equivalent: 夏
+  sentence: |-
+    <em>Боде̂жжамо</em> ажжо̀к е̂ко бевре̂ццало ано̂лшос.
+  translation: |-
+    <em>夏</em>は生きるための季節ではない。
+
+# 4959
+- name: зоту̂л
+  equivalent: 有名な
+  sentence: |-
+    Е̂ко аффесо̂хто безо̀ <em>зоту̂ло</em>.
+  translation: |-
+    彼はとても<em>有名な</em>歌手だ。
+
+# 4962
+- name: мо̂фшо
+  equivalent: 雲
+  sentence: |-
+    Лефе̂ххати ажжо̀к асо̂ко <em>мо̂фшо</em> жос чо̂ко.
+  translation: |-
+    空には<em>雲</em>が一つとしてない。
+
+# 4966
+- name: вото̂ҕ
+  equivalent: 疲れる
+  sentence: |-
+    Левке̂шшари иве̂до ажжо̂са иӈ’ <em>ивото̂ҕо</em>.
+  translation: |-
+    今日は何もしなかったが<em>疲れている</em>。
+
+# 4972
+- name: бате̂чез
+  equivalent: ぶつかる,<br>偶然遭遇する
+  sentence: |-
+    Зох но̂созам <em>ибте̂чноз</em> и̂сос чо̀к и̂ццо?
+  translation: |-
+    どうして私だけがこんな<em>目に遭った</em>のだろう?
+
+# 4977
+- name: насо̂т
+  equivalent: 着る
+  sentence: |-
+    Лехде̂де бо̀ темозо̂х <em>насо̂рат</em> оо̂цца.
+  translation: |-
+    明日はフォーマルな<em>格好をして</em>来てください。
+
+# 5002
+- name: вегто̂к
+  equivalent: 施錠する
+  sentence: |-
+    Но̀к <em>товегто̂кно</em> леге̂бча лово̂дов?
+  translation: |-
+    家の扉は<em>施錠しました</em>か?
