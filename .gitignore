@@ -5,3 +5,4 @@ out
 .vscode
 desktop.ini
 Thumbs.db
+source/data/**/*.m4a

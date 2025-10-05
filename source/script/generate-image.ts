@@ -12,6 +12,7 @@ import {Language, Orientation} from "./type";
 
 
 export async function generatePages(language: Language, orientation: Orientation, indices: Array<number>): Promise<void> {
+  console.log("[page] START");
   const specs = await getExampleSpecs(language);
   const template = await fs.readFile(`source/page/${orientation}/template.html`, {encoding: "utf-8"});
   await Promise.all(indices.map(async (index) => {
@@ -33,12 +34,14 @@ export async function generatePages(language: Language, orientation: Orientation
 }
 
 export async function generateStyle(language: Language, orientation: Orientation): Promise<void> {
+  console.log("[style] START");
   const result = await sass.compileAsync(`source/page/${orientation}/style.scss`);
   await fs.mkdir(`out/${language}/${orientation}/page`, {recursive: true});
   await fs.writeFile(`out/${language}/${orientation}/page/style.css`, result.css);
 }
 
 export async function generateImages(language: Language, orientation: Orientation, indices: Array<number>): Promise<void> {
+  console.log("[image] START");
   const viewport = (orientation === "landscape") ? {width: 1920, height: 1080} : {width: 1080, height: 1920};
   const browser = await puppeteer.launch({defaultViewport: viewport});
   await Promise.all(indices.map(async (index) => {
@@ -56,6 +59,7 @@ export async function generateImages(language: Language, orientation: Orientatio
 }
 
 export async function generateCompressedImages(language: Language, orientation: Orientation, indices: Array<number>): Promise<void> {
+  console.log("[compimage] START");
   await Promise.all(indices.map(async (index) => {
     const buffer = await fs.readFile(`out/${language}/${orientation}/image/${index + 1}.png`);
     const convertedBuffer = await pngToJpeg({quality: 100})(buffer) as any;
