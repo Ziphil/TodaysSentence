@@ -20,12 +20,13 @@ html {
     --second-font-weight: bold;
     --name-font-family: var(--first-font-family);
     --name-font-weight: var(--first-font-weight);
+    --name-letter-spacing: 0.3em;
     --special-font-family: "Josefin Sans";
   }
   &[data-language="fennese"] {
-    --base-color: hsl(20, 80%, 70%);
-    --accent-color: hsl(50, 90%, 60%);
-    --background-color: hsl(240, 10%, 20%);
+    --base-color: hsl(25, 55%, 70%);
+    --accent-color: hsl(50, 70%, 65%);
+    --background-color: hsl(240, 10%, 15%);
     --text-color: hsl(20, 20%, 90%);
     --first-font-family: "Ysabeau";
     --first-font-size-adjust: 0.71;
@@ -36,6 +37,9 @@ html {
     --name-font-family: var(--first-font-family);
     --name-font-size-adjust: var(--first-font-size-adjust);
     --name-font-weight: var(--first-font-weight);
+    --name-letter-spacing: 0em;
+    --name-width: 840px;
+    --name-padding: 96px;
     --special-font-family: "Ysabeau";
     --number-position-adjust: -12px;
     --name-position-adjust: -32px;
@@ -70,9 +74,9 @@ body {
 }
 
 .left {
-  width: 780px;
-  padding-inline-end: 108px;
-  padding-inline-start: 108px;
+  width: var(--name-width, 780px);
+  padding-inline-end: var(--name-padding, 108px);
+  padding-inline-start: var(--name-padding, 108px);
   row-gap: 48px;
   color: var(--background-color);
   display: flex;
@@ -168,7 +172,7 @@ body {
   font-weight: var(--name-font-weight, bold);
   font-size-adjust: cap-height var(--name-font-size-adjust, 0.66);
   text-align: end;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--name-letter-spacing, 0em);
 }
 
 .equivalent {
@@ -189,6 +193,7 @@ body {
     font-family: var(--second-font-family);
     font-weight: var(--second-font-weight, bold);
     font-size-adjust: cap-height var(--second-font-size-adjust, 0.66);
+    opacity: 0.5;
   }
 }
 
